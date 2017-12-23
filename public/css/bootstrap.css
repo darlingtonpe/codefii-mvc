@@ -3963,6 +3963,7 @@ tbody.collapse.show {
   display: inline-block;
   padding-top: .425rem;
   padding-bottom: .425rem;
+  color: #fff;
 }
 
 .navbar-toggler {
@@ -4316,13 +4317,15 @@ tbody.collapse.show {
 
 .navbar-light .navbar-brand,
 .navbar-light .navbar-toggler {
-  color: rgba(0, 0, 0, 0.9);
+  /*color: rgba(0, 0, 0, 0.9);*/
+  color: #fff;
+  font-family: 'Lily Script One', cursive;
 }
 
 .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover,
 .navbar-light .navbar-toggler:focus,
 .navbar-light .navbar-toggler:hover {
-  color: rgba(0, 0, 0, 0.9);
+  /*color: transparent;*/
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -6077,7 +6080,8 @@ button.close {
 }
 
 .bg-faded {
-  background-color: #f7f7f7;
+  background: #69054E ; /* For browsers that do not support gradients */
+    background: linear-gradient(to right, #69054E , #97042F);
 }
 
 .bg-primary {

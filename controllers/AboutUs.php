@@ -8,7 +8,7 @@ class AboutUs extends Controller{
 
     public function edit()
     {
-            
+
     }
 
 }
