@@ -10,10 +10,9 @@
   <body>
     <h2>welcome</h2>
     <?php
-    
-    // $user->add();
 
-
+    require_once './models/User.php';
+      $user = new Users;
      ?>
     <form method="post" action="">
       <div class="form-field">
